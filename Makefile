@@ -1,7 +1,7 @@
 thisdir := .
 
-SUBDIRS := build man class vbruntime
-net_4_5_SUBDIRS := tools vbnc scripts $(SUBDIRS)
+SUBDIRS := build man vbruntime
+net_4_5_SUBDIRS := $(SUBDIRS)
 
 DIST_SUBDIRS := $(net_4_5_SUBDIRS)
 
